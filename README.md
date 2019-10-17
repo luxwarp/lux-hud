@@ -34,21 +34,21 @@ Download compressed files or use git clone.
 git clone https://github.com/luxwarp/lux-hud.git
 ```
 
-Place the lux-hud folder inside
+Place the cloned or uncompressed lux-hud folder inside
 
 `~/.config/conky`
 
-**eg of correct file path**
+**example of correct file path**
 
 `/home/username/.config/conky/lux-hud/` (all files inside here.)
 
-Go through all .conf files and make sure your own device names are correct like disks / mount points / network interfaces etc.
+Go through all .conf files and make sure your own device names are correct like disks / mount points / network interfaces etc. You do need to have some knowledge about how conky works so check out [conky wiki](https://github.com/brndnmtthws/conky/wiki)
 
-Execute the `startall.sh` file to run all widgets at once, or use `conky -c /path/to/configfile.conf` command to only launch the one you want, see the `startall.sh` file for how the script loads all conf files.
+Execute the `startall.sh` file in your terminal to run all widgets at once, or use `conky -c /path/to/configfile.conf` command to only launch the one you want, see the `startall.sh` file for how the script loads all conf files.
 
 This collection is developed for a screen resolution of 1920x1080px. So feel free to customize all widgets to fit your screen if they aren't positioned correctly for you.
 
-See [conky wiki](https://github.com/brndnmtthws/conky/wiki) for more information.
+See [conky wiki](https://github.com/brndnmtthws/conky/wiki) for more information about how to work with conky configurations (widgets)
 
 The background in the screenshot can be found [here](https://pixabay.com/sv/photos/forest-vattenfall-bach-mossa-4068618/)
 
@@ -63,11 +63,11 @@ multiple conky processes.
 **How do I make Lux HUD autostart on boot/login?**
 
 Look up how to create an autostart script on your distribution.  
-But most distributions that follows the [FreeDesktop spec](https://www.freedesktop.org/wiki/Specifications/) allows you to create a .desktop file in `~/.config/autostart/` for ex.
+But most distributions that follows the [FreeDesktop spec](https://www.freedesktop.org/wiki/Specifications/) allows you to create a .desktop file in `~/.config/autostart/` for ex
 
 `~/.config/autostart/luxhud.desktop`
 
-```shell
+```plaintext
 [Desktop Entry]
 Name=luxhud
 Comment=A complete system monitoring running with conky.
