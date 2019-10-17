@@ -7,6 +7,7 @@ Lux HUD is a collection of [Conky](https://github.com/brndnmtthws/conky) configs
 ## Features
 
 -   System info
+-   Battery status
 -   CPU
 -   Memory
 -   Disk
