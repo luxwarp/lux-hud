@@ -1,8 +1,12 @@
 # Lux HUD
 
-Lux HUD is a collection of [Conky](https://github.com/brndnmtthws/conky) configs that gives you almost a complete system monitoring.
+Lux HUD is a collection of [Conky](https://github.com/brndnmtthws/conky) configs that gives you an almost complete system monitoring.
 
+<<<<<<< HEAD
 ![lux-hud conky configs](https://cdn.pling.com/img/f/2/d/e/82330eecff87f62ccea993d5d50e0626fae2.png)
+=======
+[![lux-hud conky configs](https://raw.githubusercontent.com/luxwarp/lux-hud/master/screenshot.png)](https://raw.githubusercontent.com/luxwarp/lux-hud/master/screenshot.png)
+>>>>>>> development
 
 ## Features
 
@@ -89,7 +93,7 @@ Feel free to contact me on email mikael.m.carlsson@gmail.com or create an [issue
 
 ## License
 
-ISC © 2019 [Mikael Luxwarp Carlsson](https://codeiolo.org)
+ISC © 2021 [Mikael Luxwarp Carlsson](https://connumin.com)
 
 ## Note
 

@@ -4,7 +4,7 @@
 # As you can see below all conky processes gets killed
 # first before running since this is a collection that takes
 # up the whole desktop. Feel free to modify this for you needs.
-# Author: Mikael Luxwarp Carlsson mikael.m.carlsson@gmail.com https://codeiolo.org
+# Author: Mikael Luxwarp Carlsson mikael.m.carlsson@gmail.com https://connumin.com
 # License: ISC.
 
 # Let the desktop load for a few seconds before running
